@@ -5,14 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="contact.css" />
 
 </head>
 
@@ -42,6 +41,36 @@
             </ul>
         </div>
     </nav>
+    <div id="contact">
+        <div>
+            <h1>Contact Me</h1>
+            <div class="row">
+                <!-- <br /> -->
+                <!-- contact form  -->
+                <div class="col-xl-6">
+                    <form action="">
+                        <label for="text">Name :</label>
+                        <br />
+                        <input id="FName" type="text" name="name" placeholder="First Name" required />
+                        <br>
+                        <input id="LName" type="text" placeholder="Last Name" />
+                        <br />
+                        <label for="email">Email : </label>
+                        <br />
+                        <input id="Email" type="email" name="email" placeholder="Email Address" required />
+                        <br />
+                        <label for="message">Message : </label>
+                        <br />
+                        <textarea id="textarea" name="message" placeholder="Message"></textarea>
+                        <br />
+                        <br />
+                        <input id="submit" type="button" value="Submit" />
+                        <br />
+                        <br />
+                    </form>
+                </div>
+            </div>
+        </div>
 
 
 </body>
